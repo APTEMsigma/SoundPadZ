@@ -15,6 +15,7 @@
   <img src="https://img.shields.io/badge/Audio-NAudio_WASAPI-orange" alt="NAudio" />
   <img src="https://img.shields.io/badge/Design-Material_Design-00BCD4?logo=materialdesign" alt="Material Design" />
   <img src="https://img.shields.io/badge/AI-GLM_5.3_%2B_Gemini_3.7_Flash-blueviolet" alt="Vibe Coded with GLM 5.3 + Gemini 3.7 Flash" />
+  <a href="https://www.virustotal.com/gui/file/232720bfc04790bc142ecd88900ed563922849a5e6400d965d4e0fd8a64d9e50"><img src="https://img.shields.io/badge/VirusTotal-Clean%20(0%2F70)-brightgreen?logo=virustotal" alt="VirusTotal Clean" /></a>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
 </p>
 
@@ -46,6 +47,7 @@
   * Drag & Drop аудиофайлов прямо в окно.
   * Скачивание аудио по прямой ссылке.
   * Индивидуальная регулировка громкости и зацикливание для каждого звука.
+* 🛡 **Безопасность**: чистый отчёт без вирусов и угроз ([Отчёт VirusTotal: 0/70](https://www.virustotal.com/gui/file/232720bfc04790bc142ecd88900ed563922849a5e6400d965d4e0fd8a64d9e50)).
 
 ### 🚀 Быстрый старт
 
@@ -84,6 +86,7 @@
   * Drag & Drop support.
   * Direct URL audio downloader.
   * Per-sound volume and looping controls.
+* 🛡 **Security & Safety**: verified clean binary with zero detections ([VirusTotal Report: 0/70](https://www.virustotal.com/gui/file/232720bfc04790bc142ecd88900ed563922849a5e6400d965d4e0fd8a64d9e50)).
 
 ---
 
