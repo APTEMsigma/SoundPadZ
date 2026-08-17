@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows_x64-0078D6?logo=windows" alt="Windows x64" />
   <img src="https://img.shields.io/badge/Audio-NAudio_WASAPI-orange" alt="NAudio" />
   <img src="https://img.shields.io/badge/Design-Material_Design-00BCD4?logo=materialdesign" alt="Material Design" />
+  <img src="https://img.shields.io/badge/AI-GLM_5.3_%2B_Gemini_3.7_Flash-blueviolet" alt="Vibe Coded with GLM 5.3 + Gemini 3.7 Flash" />
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
 </p>
 
@@ -22,6 +23,8 @@
 ## 🇷🇺 Описание на русском
 
 **SoundPadZ** — это легковесное приложение на **C# / .NET 8 WPF**, позволяющее воспроизводить любые звуки и музыку прямо в микрофон (в Discord, CS2, Dota 2, Telegram, OBS и любые другие программы) через виртуальный кабель (VB-Audio Cable), одновременно слушая их в своих наушниках без эха и задержек.
+
+> 🤖 **Vibe Coding**: Программа была полностью навайбкожена при помощи **GLM 5.3** + **Gemini 3.7 Flash**.
 
 ### 🌟 Основные возможности
 
@@ -58,6 +61,8 @@
 ## 🇬🇧 English Description
 
 **SoundPadZ** is a high-performance **C# / .NET 8 WPF** soundboard that allows you to play audio clips, memes, and sound effects directly into your microphone stream (Discord, games, streaming apps) via VB-Audio Virtual Cable while monitoring the sound in your headphones with zero latency and zero feedback echo.
+
+> 🤖 **Vibe Coding**: This project was fully vibe-coded using **GLM 5.3** + **Gemini 3.7 Flash**.
 
 ### 🌟 Key Features
 
