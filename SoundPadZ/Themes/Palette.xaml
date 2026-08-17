@@ -1,0 +1,15 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Themes/Accents.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- Light-specific surfaces -->
+    <SolidColorBrush x:Key="MaterialDesignPaper" Color="#F1F7FC"/>
+    <SolidColorBrush x:Key="AppSidePanelBackground" Color="#FAFDFF"/>
+    <SolidColorBrush x:Key="AppSidePanelBorder" Color="#E1EBF4"/>
+    <SolidColorBrush x:Key="AppFieldBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="AppFieldBorder" Color="#B9CDDD"/>
+</ResourceDictionary>

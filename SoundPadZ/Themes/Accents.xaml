@@ -1,0 +1,35 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Shared accent palette (pastel blue), identical in light and dark themes -->
+
+    <Color x:Key="PrimaryHueLightColor">#C9E6F8</Color>
+    <Color x:Key="PrimaryHueMidColor">#90CAF9</Color>
+    <Color x:Key="PrimaryHueDarkColor">#5FA5DD</Color>
+    <Color x:Key="PrimaryHueLightForegroundColor">#123A57</Color>
+    <Color x:Key="PrimaryHueMidForegroundColor">#0E3050</Color>
+    <Color x:Key="PrimaryHueDarkForegroundColor">#FFFFFF</Color>
+
+    <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="{StaticResource PrimaryHueLightColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{StaticResource PrimaryHueMidColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="{StaticResource PrimaryHueDarkColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="{StaticResource PrimaryHueLightForegroundColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="{StaticResource PrimaryHueMidForegroundColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="{StaticResource PrimaryHueDarkForegroundColor}"/>
+
+    <Color x:Key="SecondaryHueLightColor">#D6DCFE</Color>
+    <Color x:Key="SecondaryHueMidColor">#A5B4FC</Color>
+    <Color x:Key="SecondaryHueDarkColor">#8B9CF6</Color>
+    <Color x:Key="SecondaryHueLightForegroundColor">#1B2559</Color>
+    <Color x:Key="SecondaryHueMidForegroundColor">#1B2559</Color>
+    <Color x:Key="SecondaryHueDarkForegroundColor">#FFFFFF</Color>
+
+    <SolidColorBrush x:Key="SecondaryHueLightBrush" Color="{StaticResource SecondaryHueLightColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueMidBrush" Color="{StaticResource SecondaryHueMidColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkBrush" Color="{StaticResource SecondaryHueDarkColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueLightForegroundBrush" Color="{StaticResource SecondaryHueLightForegroundColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueMidForegroundBrush" Color="{StaticResource SecondaryHueMidForegroundColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkForegroundBrush" Color="{StaticResource SecondaryHueDarkForegroundColor}"/>
+
+    <SolidColorBrush x:Key="AppAccentBrush" Color="#90CAF9"/>
+    <SolidColorBrush x:Key="AppAccentDarkBrush" Color="#5FA5DD"/>
+</ResourceDictionary>

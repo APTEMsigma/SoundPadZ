@@ -1,0 +1,25 @@
+<Window x:Class="SoundPadZ.AddUrlDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource AddUrl}" Width="520" SizeToContent="Height" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        FontFamily="Segoe UI" TextElement.FontSize="13">
+    <StackPanel Margin="24">
+        <TextBox x:Name="TxtUrl" md:HintAssist.Hint="{DynamicResource UrlLabel}"
+                 TextChanged="TxtUrl_TextChanged"/>
+        <TextBox x:Name="TxtName" md:HintAssist.Hint="{DynamicResource UrlName}" Margin="0,16,0,0"
+                 TextChanged="TxtName_TextChanged"/>
+        <ProgressBar x:Name="Pb" IsIndeterminate="True" Height="6" Margin="0,18,0,4"
+                     Visibility="Collapsed"/>
+        <TextBlock x:Name="TxtStatus" Opacity="0.7" FontSize="11.5" TextWrapping="Wrap"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,22,0,0">
+            <Button Content="{DynamicResource Cancel}" IsCancel="True"
+                    Style="{StaticResource MaterialDesignFlatButton}"/>
+            <Button x:Name="BtnDownload" Content="{DynamicResource Download}" Margin="12,0,0,0"
+                    Style="{StaticResource MaterialDesignRaisedButton}" Click="Download_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
